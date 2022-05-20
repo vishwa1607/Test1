@@ -1,0 +1,9 @@
+img{
+	height:315px;
+	width:215px;
+	border:2px;
+	padding:8px;
+}
+table, th, td, tr {
+  border: 1px solid black;
+}

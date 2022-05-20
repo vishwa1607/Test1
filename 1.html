@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>1</title>
+
+<script type="text/javascript">
+var markMass; var markHeight; var johnMass; var johnHeight; var markBMI; var johnBMI;
+markMass = prompt('What is Mark\'s Mass?' );
+markHeight = prompt('What is Mark\'s Height?' );
+johnMass = prompt('What is John\'s Mass?' );
+johnHeight = prompt('What is John\'s Height?' );
+
+markBMI = markMass / (markHeight * markHeight);
+johnBMI = johnMass / (johnHeight * johnHeight);
+
+var markBiggerBMI   = markBMI > johnBMI;
+
+console.log(markBMI, johnBMI);
+
+if(markBMI > johnBMI){
+  console.log('Mark\'s BMI is bigger than John\'s');
+}
+else {
+  console.log('John\'s BMI is bigger than Mark\'s');
+}
+</script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,41 @@
+h1,h2,h4
+{
+	text-align: center;
+}
+
+p
+{
+	text-align: center;
+}
+
+.testimonial{
+  width: 1000px;
+  height: auto;
+  margin: 120px auto;
+}
+
+.testimonial .First
+{
+	width: 300px;
+  	margin: 0 10px;
+  	float: left;
+  	border-radius: 25px;
+  	box-shadow: 0 0 5px rgba(0,0,0,0.250)
+}
+
+.testimonial .item .img{
+  padding: 20px;
+}
+.testimonial .First .img img
+{
+	width:100px;
+	display: block;
+	margin: 5px auto;
+
+}
+.testimonial .First .description
+{
+	text-align: center;
+	border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
